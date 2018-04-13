@@ -1,0 +1,11 @@
+@RELATION lenses
+
+@ATTRIBUTE paciente {id32}
+@ATTRIBUTE idade {jovem, pre-presbiopico, presbiopico}
+@ATTRIBUTE diagOficial {miope, hipermetrope}
+@ATTRIBUTE astigmatismo {false, true}
+@ATTRIBUTE prodLacrimal {normal, reduzida}
+@ATTRIBUTE lentePrescrita {nenhuma, gelatinosa, rigida}
+
+@DATA
+id32, presbiopico, hipermetrope, true, normal,?
